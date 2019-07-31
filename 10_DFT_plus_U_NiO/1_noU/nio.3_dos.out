@@ -1,0 +1,48 @@
+
+     Program DOS v.6.4.1 starts on 24Jul2019 at 16:32:56 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     4 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       4
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+               file O.pbe-n-kjpaw_psl.0.1.UPF: wavefunction(s)  2P renormalized
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         513     206     71                11637     2965     603
+     Max         514     207     73                11639     2966     604
+     Sum        2055     825    287                46553    11861    2413
+ 
+     Generating pointlists ...
+     new r_m :   0.1684 (alat units)  1.6287 (a.u.) for type    1
+     new r_m :   0.1684 (alat units)  1.6287 (a.u.) for type    2
+     new r_m :   0.1684 (alat units)  1.6287 (a.u.) for type    3
+
+     Check: negative core charge=   -0.000006
+
+     Tetrahedra used
+
+ 
+     DOS          :   1m21.30s CPU   1m22.79s WALL
+
+ 
+   This run was terminated on:  16:34:19  24Jul2019            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
