@@ -1,20 +1,22 @@
 
 ### 1. H2
+------
 #### Calculation of bond length and dissociation energy
 1.  pw.x 'relax' 
 2. pw.x 'scf' 
-------
+
 
 ### 2. H2O
+------
 #### Calculation of bond length and bond angle
 1. pw.x 'relax' 
-------
+
 
 ### 3-1. Si_vc_relax
 ------
 #### calculation of crystal constant and density
 1. vc relax 
-------
+
 
 ### 3-2. Si_bandgap
 ------
