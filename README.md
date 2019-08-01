@@ -1,25 +1,21 @@
 
 ### 1. H2
-------
 #### Calculation of bond length and dissociation energy
 1.  pw.x 'relax' 
 2. pw.x 'scf' 
 
 
 ### 2. H2O
-------
 #### Calculation of bond length and bond angle
 1. pw.x 'relax' 
 
 
 ### 3-1. Si_vc_relax
-------
 #### calculation of crystal constant and density
 1. vc relax 
 
 
 ### 3-2. Si_bandgap
-------
 #### calculation of band gap by using DOS calcualtion
 1. pw.x 'scf' 
 2. pw.x 'nscf' : to get more precise Fermi energy
@@ -27,7 +23,6 @@
 
 
 ### 3-3. Si_bandstructure
-------
 #### Calculation of band gap by using k-path
 1. pw.x 'scf'
 2. pw.x 'nscf'
@@ -37,7 +32,6 @@
 
 
 ### 3-4. Si_phonon
-------
 #### Gamma point
 1. pw.x 'scf'
 2. ph.x
@@ -50,20 +44,17 @@
 
 
 ### 3-5. Si_reconstruction
-------
 #### Si(100) surface reconstruction structure
 1. pw.x 'relax' 
 
 
 ### 4. NH3
-------
 #### Calculation of NH3 inversion energy
 1. pw.x 'relax'
 2. neb.x
 
 
 ### 5. Al
-------
 #### DOS
 1. pw.x 'vc relax'
 2. pw.x 'scf'
@@ -78,7 +69,6 @@
 
 
 ### 6. Fe
-------
 #### Collinear : Calculation of spin-polarized magnetization in iron crystal
 1. pw.x 'vc relax'
 2. pw.x 'scf'
@@ -90,7 +80,6 @@
 
 
 ### 7. Benzene
-------
 #### Calculation of adsorption spectrum of benzene molecule
 1. pw.x 'relax'
 2. pw.x 'scf'
@@ -99,7 +88,6 @@
 
 
 ### 8. NMR_gipaw
-------
 #### TMS reference : Chemical shift using GIPAW
 1. pw.x 'scf'
 2. gipaw.x
@@ -110,7 +98,6 @@
 
 
 ### 9. Graphene
-------
 #### Calculation of graphene band gap
 1. pw.x 'vc relax'
 2. pw.x 'scf'
@@ -121,7 +108,6 @@
 
 
 ### 10. DFT+U NiO
-------
 #### no U : Standard DFT calulation
 1. pw.x 'scf'
 2. pw.x 'nscf'
