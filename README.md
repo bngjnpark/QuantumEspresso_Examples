@@ -1,9 +1,8 @@
 
-
-### 1. H2
-Calculation of bond length and dissociation energy
+#### 1. H2
+##### Calculation of bond length and dissociation energy
 1.  pw.x 'relax' 
-2. 2. pw.x 'scf' 
+2. pw.x 'scf' 
 
 ### 2. H2O
 Calculation of bond length and bond angle
